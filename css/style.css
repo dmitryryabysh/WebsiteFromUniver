@@ -1,0 +1,148 @@
+
+.karini {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.karini article {
+    border-bottom: 1px dashed #ddd;
+    text-align: justify;
+    line-height: 1.8;
+    background: #fff;
+    max-width: 900px;
+    font-size: 19px;
+    padding: 60px 40px;
+    margin: 0 auto;
+    width: 160%;
+    color: #333;
+}
+
+.karini article em {
+    font-style: normal;
+    font-size: 12px;
+    color: #666;
+}
+
+.karini article em:before {
+    content: '~';
+    margin: 0 10px;
+}
+
+@media (max-width: 600px) {
+    .karini article {
+        padding: 10px 30px;
+        line-height: 1.5;
+        font-size: 12px;
+    }
+    .quotes article em {
+        font-size: 10px;
+    }
+}
+
+td a {
+    vertical-align: middle;
+}
+
+
+
+.bd_block{
+    font-size: 12px;
+    overflow-y:scroll;
+    overflow-x:scroll;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 1588px;
+    top: 170px;
+    width: 288px;
+    height: 666px;
+    background: white;
+}
+.content {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; /* Положение от левого края */
+    top: 110px;
+    color: white; /* Цвет текста */
+    padding: 5px; /* Поля вокруг текста */
+    text-align: justify; /* Выравнивание по ширине */
+}
+
+.lowest_content {
+
+    display: flex;
+    position: fixed; /* Абсолютное позиционирование */
+    left: 1570px; /* Положение от левого края */
+    top: 840px;
+    padding: 5px; /* Поля вокруг текста */
+}
+
+a.button1 {
+    display: inline-block;
+    width:180px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .3em 4em;
+    outline: none;
+    border: 0 solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+a.button1:hover { background: white; color: black;}
+a.button1:active { background:  rgba(255,255,255,.2); }
+
+a.button2 {
+    display: inline-block;
+    width:180px;
+    color: darkgrey;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .3em 4em;
+    outline: none;
+    border: 0 solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+a.button2:hover { background: rgba(255,255,255,.2); color: white; }
+a.button2:active { background: black; }
+
+a.button3 {
+    display: inline-block;
+    width:180px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    text-decoration: none;
+    user-select: none;
+    padding: 4em 4em;
+    outline: none;
+    border: 0 solid;
+    cursor: pointer;
+    transition: 0.3s;
+}
+a.button3:hover { background: white; color: #000000;font-weight: 700;}
+a.button3:active { background: rgba(0, 0, 0, 0.2); width:400px;}
+
+
+@font-face {
+    font-family: Franklin Gothic Book; /* Гарнитура шрифта */
+    src: url(fonts/FRABK.ttf); /* Путь к файлу со шрифтом */
+}
+
+img {
+    border: 3px solid rgba(255, 18, 0, 0);
+}
+
+body {
+    font-family: 'Franklin Gothic Book', Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    background: url(images/Phone.png); /* Цвет фона и путь к файлу */
+    color: #000000; /* Цвет текста */
+}
+
+
+
